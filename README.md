@@ -11,7 +11,7 @@ $ webpack
 ```
 and insert  this lines into \<your xee root\>/config/experiments.exs
 ```exs:experiments.exs
-experiment "UltimatumGame",
+experiment "Ultimatum and Dictator Games",
   file: "experiments/ultimatum-and-dictator-games/script.exs",
   host: "experiments/ultimatum-and-dictator-games/host.js",
   participant: "experiments/ultimatum-and-dictator-games/participant.js"
