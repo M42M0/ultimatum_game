@@ -51,7 +51,7 @@ defmodule UltimatumAndDictaorGames do
   
   # Host router
   def handle_received(data, %{"action" => action, "params" => params}) do
-    Logger.debug("[Ultimatum Game] #{action} #{inspect params}")
+    Logger.debug("[Ultimatum and Dictator Games] #{action} #{inspect params}")
     result = case {action, params} do
       {"FETCH_CONTENTS", _} -> Host.fetch_contents(data)
       {"SYNC_GAME_PROGRESS", game_progress} -> Host.sync_game_progress(data, game_progress)
