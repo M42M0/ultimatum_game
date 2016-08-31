@@ -18,3 +18,5 @@ export const changeInfRedo = createAction('CHANGE_INF_REDO', inf_redo => inf_red
 
 export const intoLoading = createAction('INTO_LOADING')
 export const exitLoading = createAction('EXIT_LOADING')
+
+export const openParticipantPage = createAction('open participant page')
