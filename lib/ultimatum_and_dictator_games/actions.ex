@@ -1,6 +1,6 @@
-defmodule UltimatumAndDictaorGames.Actions do
-  alias UltimatumAndDictaorGames.Participant
-  alias UltimatumAndDictaorGames.Host
+defmodule UltimatumAndDictatorGames.Actions do
+  alias UltimatumAndDictatorGames.Participant
+  alias UltimatumAndDictatorGames.Host
 
   def reseted(data) do
     host_action = get_action("reseted", %{participants: data.participants})

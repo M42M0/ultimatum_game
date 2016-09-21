@@ -1,16 +1,11 @@
-defmodule UltimatumAndDictaorGames do
-  use Xee.ThemeScript
+defmodule UltimatumAndDictatorGames do
+  use XeeThemeScript
   require Logger
 
-  require_file "scripts/main.exs"
-  require_file "scripts/host.exs"
-  require_file "scripts/participant.exs"
-  require_file "scripts/actions.exs"
-
-  alias UltimatumAndDictaorGames.Host
-  alias UltimatumAndDictaorGames.Participant
-  alias UltimatumAndDictaorGames.Main
-  alias UltimatumAndDictaorGames.Actions
+  alias UltimatumAndDictatorGames.Host
+  alias UltimatumAndDictatorGames.Participant
+  alias UltimatumAndDictatorGames.Main
+  alias UltimatumAndDictatorGames.Actions
 
   # Callbacks
   def script_type do

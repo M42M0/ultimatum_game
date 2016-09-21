@@ -1,6 +1,6 @@
-defmodule UltimatumAndDictaorGames.Host do
-  alias UltimatumAndDictaorGames.Main
-  alias UltimatumAndDictaorGames.Actions
+defmodule UltimatumAndDictatorGames.Host do
+  alias UltimatumAndDictatorGames.Main
+  alias UltimatumAndDictatorGames.Actions
 
   # Actions
   def fetch_contents(data) do

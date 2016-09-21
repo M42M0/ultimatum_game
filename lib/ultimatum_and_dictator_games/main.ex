@@ -1,4 +1,4 @@
-defmodule UltimatumAndDictaorGames.Main do
+defmodule UltimatumAndDictatorGames.Main do
 
   @game_modes ["ultimatum", "dictator"]
   @pages ["waiting", "description", "experiment", "result"]
