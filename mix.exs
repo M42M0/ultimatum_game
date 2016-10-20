@@ -2,7 +2,7 @@ defmodule UltimatumAndDictatorGames.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :ultimatum_and_dictator_games,
+    [app: :xee_ultimatum_and_dictator_games,
      version: "0.1.0",
      build_path: "../../_build",
      config_path: "../../config/config.exs",
